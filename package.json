@@ -1,0 +1,14 @@
+{
+  "name": "xcode-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for Xcode/Apple development tools",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "tools": "node index.js tools"
+  },
+  "dependencies": {
+    "fastmcp": "^2.0.0"
+  }
+}
